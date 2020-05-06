@@ -113,7 +113,6 @@ export default {
   justify-content: center;
   align-items: center;
   max-width: 600px;
-
 }
 
 figure {
@@ -186,8 +185,10 @@ figcaption {
   }
 }
 @media screen and (max-width: 600px) {
+  .slides {
+    max-width: 300px;
+  }
   .prev, .next {
-    padding: 0.4em 0.8em;
     font-size: 1.25em;
   }
   .prev {

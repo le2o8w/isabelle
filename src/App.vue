@@ -96,14 +96,14 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 300px 1fr 30px;
+  grid-template-rows: 150px 1fr 30px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+
 header {
   align-self: end;
 }
-
 
 main {
   display: flex;
@@ -140,7 +140,7 @@ footer {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 2.5em;
-    margin-top: 40px;
+    margin: 0px;
   }
   figcaption {
     margin: 1em 0;
