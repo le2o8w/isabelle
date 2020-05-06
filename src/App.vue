@@ -93,7 +93,7 @@ body {
 }
 
 #app {
-  min-height: 90vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 150px 1fr 30px;
@@ -138,6 +138,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  #app {
+    grid-template-rows: 80px 1fr 30px;
+  }
   h1 {
     font-size: 2.5em;
     margin: 0px;
