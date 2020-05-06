@@ -93,7 +93,7 @@ body {
 }
 
 #app {
-  min-height: 100vh;
+  min-height: 90vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 150px 1fr 30px;
