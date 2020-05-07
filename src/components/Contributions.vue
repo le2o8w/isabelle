@@ -95,8 +95,15 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
-.don {
-  width: 100%;
-}
+  .don {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .don p {
+    font-size: 0.85em;
+  }
+  .don img {
+    padding-left: 10px;
+  }
 }
 </style>
