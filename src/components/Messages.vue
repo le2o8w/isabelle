@@ -54,8 +54,12 @@
             id: 3,
             name: "Léo",
             text: "Merci Isabelle de m'avoir rassurée et encouragée dans mon premier poste de développeur ! Tu mets la barre très haut pour tes successeurs :) C'était un plaisir de travailler avec toi.<br>J'espère que ton nouveau job t'apportera l'épanouissement et la stabilité que Fiducial n'aura pas su t'offrir.<br> On a hâte de voir des photos de tes chaussures de sécu et ton casque de chantier !"
+          },
+          {
+            id: 4,
+            name: "Vincent",
+            text: "en vertue de la (case du jeu de l') oi(e) du 7/5/2019, la carte de départ n'ayant pas pu être signée par tous les participants, son départ est repoussé puisque ladite carte fait office d'attestation ex-employeur pour avoir le droit de se déplacer aillurs<br>et donc si ca permet de la garder, je signe pas ;-)"
           }
-
         ]
       }
     },
