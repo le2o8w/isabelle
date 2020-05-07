@@ -21,7 +21,9 @@
         </g>
       </svg>
     </div>    
-
+    <div class="message">
+      <Contributions />
+    </div>
     <!-- Retour accueil -->
     <div class="return">
       <a @click="endOfMessages">Rejouer le diaporama</a> 
@@ -30,8 +32,13 @@
 </template>
 
 <script>
+import Contributions from "./Contributions.vue";
+
   export default {
     name: "Messages",
+    components: {
+      Contributions
+    },
     data() {
       return {
         messages : [
@@ -59,6 +66,16 @@
             id: 4,
             name: "Vincent",
             text: "en vertue de la (case du jeu de l') oi(e) du 7/5/2019, la carte de départ n'ayant pas pu être signée par tous les participants, son départ est repoussé puisque ladite carte fait office d'attestation ex-employeur pour avoir le droit de se déplacer aillurs<br>et donc si ca permet de la garder, je signe pas ;-)"
+          },
+          {
+            id: 5,
+            name: "Arthur",
+            text: "Isabelle, je te souhaite le meilleur pour la suite, bonne continuation et à bientôt !!<br>Et n'oublie pas, Arthur T (Excellent Vaudou Guérisseur Célèbre - 06 07 08 09 10 ) arrange tous les problèmes, pour toi à moitié prix!"
+          },
+          {
+            id: 6,
+            name: "Fred",
+            text: "Isabelle, content d'avoir fait ta connaissance.<br>Tes côtés pratique, réaliste et drôle vont me manquer!<br>Je suis certain que tu vas cartonner à ton nouveau Job et j'espère que nous aurons l'occasion de boire un verre.<br>Avec une visière, évidemment, séparés par un hygiaphone, et en s'étant préalablement copieusement aspergés les mains de gel hydroalcoolique."
           }
         ]
       }

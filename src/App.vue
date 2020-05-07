@@ -16,14 +16,12 @@
     <main>
       <!-- Slides -->
       <transition name="fade" mode="in-out">
-        <article v-if="showSlides">          
-          <Slides @endOfSlides="toggleShow" />
-        </article>
+        <Slides v-if="showSlides" @endOfSlides="toggleShow" />
       </transition>
       <!-- Livre d'or -->
       <transition name="fade" mode="in-out">
-        <article v-if="!showSlides">
-          <Messages @endOfMessages="toggleShow" />
+        <article>
+          <Messages v-if="!showSlides" @endOfMessages="toggleShow" />
         </article>
       </transition>
     </main>

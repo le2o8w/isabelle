@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-lifejacket">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="lifejacket" clip-path="url(#clip-lifejacket)">
+    <g id="_050-life-jacket" data-name="050-life-jacket" transform="translate(-3.969)">
+      <g id="Groupe_37" data-name="Groupe 37" transform="translate(5.969)">
+        <path id="Tracé_21" data-name="Tracé 21" d="M100.376,41.6A10.529,10.529,0,0,1,89.859,31.084V0H66.38V17.569a11.683,11.683,0,0,1-23.366,0V0H19.535V31.3A10.317,10.317,0,0,1,9.23,41.6H5.969V100h97.668V41.6Zm-87.886,6.2A16.855,16.855,0,0,0,26.057,31.3V6.522H36.493V17.569a18.23,18.23,0,0,0,15.05,17.925V49.348H40.89v5.29h-28.4Zm49.7,8.064v3.913H47.412V55.87Zm-49.7,5.29h28.4V66.3H51.542v4.783H40.89v5.145h-28.4Zm49.7,16.449v3.913H47.412V77.609ZM51.542,93.478H12.491V82.754h28.4v5.29H51.542v5.435Zm45.573,0H58.064V88.044H68.716V82.826h28.4V93.478Zm0-17.174h-28.4V71.087H58.064V66.3H68.716V61.087h28.4V76.3Zm0-21.739h-28.4V49.348H58.064V35.456A18.232,18.232,0,0,0,72.9,17.569V6.522H83.338V31.084A17.067,17.067,0,0,0,97.116,47.809v6.756Z" transform="translate(-5.969)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

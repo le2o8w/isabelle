@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-voilier">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="voilier" clip-path="url(#clip-voilier)">
+    <g id="_040-sailboat" data-name="040-sailboat" transform="translate(0 -7.087)">
+      <g id="Groupe_17" data-name="Groupe 17" transform="translate(3.321 79.605)">
+        <g id="Groupe_16" data-name="Groupe 16">
+          <path id="Tracé_9" data-name="Tracé 9" d="M17,378.382,27.617,403.1h75.062L113.3,378.382Zm81.508,18.383H31.788L26.61,384.712h77.077Z" transform="translate(-17.001 -378.382)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Groupe_19" data-name="Groupe 19" transform="translate(54.711 7.087)">
+        <g id="Groupe_18" data-name="Groupe 18" transform="translate(0 0)">
+          <path id="Tracé_10" data-name="Tracé 10" d="M285.39,11.763l-5.267-4.676V77.672h45.268l.021-3.144C325.419,73.422,325.133,47.052,285.39,11.763Zm1.064,59.578h0V21.349c9.872,9.443,21.245,22.382,27.874,36.8a57.446,57.446,0,0,1,4.386,13.194Z" transform="translate(-280.123 -7.087)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Groupe_21" data-name="Groupe 21" transform="translate(0 18.761)">
+        <g id="Groupe_20" data-name="Groupe 20" transform="translate(0 0)">
+          <path id="Tracé_11" data-name="Tracé 11" d="M45.181,76.445c-.154.252-15.662,25.384-38.253,43.718L0,125.785H51.046V66.859Zm-.465,43.01H17.443A203.351,203.351,0,0,0,44.716,88.446Z" transform="translate(0 -66.859)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

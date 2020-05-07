@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-mask">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="mask" clip-path="url(#clip-mask)">
+    <g id="_049-snorkel" data-name="049-snorkel" transform="translate(-4.174)">
+      <g id="Groupe_34" data-name="Groupe 34" transform="translate(12.87 42.228)">
+        <g id="Groupe_33" data-name="Groupe 33">
+          <path id="Tracé_19" data-name="Tracé 19" d="M48.7,229.524h6.522a6.8,6.8,0,0,1,6.794-6.794v-6.522A13.33,13.33,0,0,0,48.7,229.524Z" transform="translate(-48.696 -216.209)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Groupe_36" data-name="Groupe 36" transform="translate(4.174)">
+        <g id="Groupe_35" data-name="Groupe 35">
+          <path id="Tracé_20" data-name="Tracé 20" d="M102.544,24.783V0H81.674V24.783h7.174V50.432H85.1a22.049,22.049,0,0,0-21.41-16.9h-37.5a22.011,22.011,0,1,0,18.75,33.529A22.006,22.006,0,0,0,85.649,56.954h3.2V67.007A18.883,18.883,0,0,1,69.986,85.87H55.253a10.84,10.84,0,1,0,.019,6.522H69.986A25.413,25.413,0,0,0,95.37,67.007V56.954h5.037V50.432H95.37V24.783ZM63.685,71.033A15.506,15.506,0,0,1,48.2,55.544H41.674A15.489,15.489,0,1,1,26.185,40.054h37.5A15.513,15.513,0,0,1,78.3,50.432H73.87v6.522h5.237A15.509,15.509,0,0,1,63.685,71.033ZM44.922,93.478a4.32,4.32,0,1,1,4.321-4.32A4.325,4.325,0,0,1,44.922,93.478ZM88.2,18.261V6.522h7.826V18.261H88.2Z" transform="translate(-4.174)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
