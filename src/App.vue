@@ -12,7 +12,6 @@
         </vue-typed-js>
       </transition>
     </header>
-
     <main>
       <!-- Slides -->
       <transition name="fade" mode="in-out">
@@ -20,12 +19,9 @@
       </transition>
       <!-- Livre d'or -->
       <transition name="fade" mode="in-out">
-        <article>
-          <Messages v-if="!showSlides" @endOfMessages="toggleShow" />
-        </article>
+        <Messages v-if="!showSlides" @endOfMessages="toggleShow" />
       </transition>
     </main>
-
     <footer>
       <small>Made with 💜 by Léo</small>
     </footer>

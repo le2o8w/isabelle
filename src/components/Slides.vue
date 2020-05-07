@@ -1,6 +1,6 @@
 <template>
   <article class="slides">
-    <transition name="slide" mode="out-in">
+    <transition :name="direction" mode="out-in">
       <figure v-for="i in [currentIndex]" :key="i">
         <figcaption>{{current.text}}</figcaption>
         <img :src="current.img" />
@@ -26,7 +26,7 @@ export default {
           img: require('@/assets/img/team.gif')
         }, 
         {
-          text: 'Tu as su briller lors des réunions et présenter notre travail sous son meilleur jour (même quand tout n\'était pas très au point.)...',
+          text: 'Tu as su briller lors des réunions et présenter notre travail sous son meilleur jour (même quand tout n\'était pas très au point)...',
           img: require('@/assets/img/meeting.gif')
         }, 
         {
@@ -78,12 +78,14 @@ export default {
           img: require('@/assets/img/karaoke.gif')
         }
       ],
-      currentIndex: 0
+      currentIndex: 0,
+      direction: "slideNext"
     };
   },
 
   methods: {
     next: function() {
+      this.direction = "slideNext";
       this.currentIndex += 1;
       if (this.currentIndex === this.data.length) {
         this.$emit("endOfSlides", false);
@@ -93,6 +95,7 @@ export default {
       if (this.currentIndex - 1 < 0) {
         return;
       } else {
+        this.direction = "slidePrev";
         this.currentIndex -= 1;
       }
     }
@@ -156,16 +159,24 @@ figcaption {
   background-color: rgba(255,255,255,0.5);
 }
 
-.slide-leave-active,
-.slide-enter-active {
+.slideNext-leave-active,
+.slideNext-enter-active,
+.slidePrev-leave-active,
+.slidePrev-enter-active {
   transition: all 0.4s ease-in-out;
   pointer-events: none;
 }
-.slide-enter {
+.slideNext-enter {
   transform: translate(100%, 0);
 }
-.slide-leave-to {
+.slideNext-leave-to {
   transform: translate(-100%, 0);
+}
+.slidePrev-enter {
+  transform: translate(-100%, 0);
+}
+.slidePrev-leave-to {
+  transform: translate(100%, 0);
 }
 
 @media screen and (max-width: 1400px) {
